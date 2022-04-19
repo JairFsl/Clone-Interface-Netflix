@@ -1,0 +1,92 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #121111;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: #e50914;
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    transition: .2s ease all;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*Filme Principal*/
+
+main .container {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.filme_principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.10),rgba(0,0,0,.70) 100%), url('/img/interestelar.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.filme_principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme_principal .titulo {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+    
+}
+
+.botao {
+    background-color: rgba(0,0,0,.60);
+    border: none;
+    color: white;
+    
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
